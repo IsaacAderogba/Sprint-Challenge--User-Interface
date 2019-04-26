@@ -242,6 +242,10 @@ main .about-bottom-main {
     margin-top: 10px;
 }
 
+.about-above-footer {
+    margin: 20px 2% 20px 2%;
+}
+
 /* .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
