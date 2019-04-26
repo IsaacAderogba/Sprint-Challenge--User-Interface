@@ -210,8 +210,51 @@ footer nav a {
 /* About Page CSS */
 main .about-top-main {
     padding-bottom: 20px;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding: 0 2% 20px 2%;
 }
 
+main .about-bottom-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-bottom-main .about-item {
+    width: 46%;
+    margin: 20px 2%;
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-item .learn-btn {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+	display: inline-block;
+    color: black;
+    background: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.about-item h2 {
+    margin-top: 10px;
+}
+
+/* .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
