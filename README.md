@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+# Sprint Challenge: User Interface and Git - Multi-Page Website - ISAAC ADEROGBA
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+> I would say that semantic HTML gives meaning to the webpage. It does this by repalcing generic tags such as the <div> tag, with tags that are more appropriate for the piece of html code. For example, if I were working on the footer for a web page, it would be much more smarter (and semantic of me) to enclose the code within a <footer> tag as opposed to a <div> tag. Not only is it better for code architecture, but it has benefits as it relates to web crawlers as they're able to properly understand the structure of a web page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block:
+> Display block, by default, stretches to fill the width of a page
+> With display block, a line break happens after the element
+
+Display inline:
+> Display inline, does not stretch to fill the width of a page, rather it takes up only as much space as is needed. In other words, if I gave it a height of 100px but the content within is only 10px high, it wouldn't extend to the 100px but remain at the 10
+> Display inline is typically used within sentences, to highlight certain areas
 
 3. What are the 4 areas of the box model?
 
+> Content area
+> Padding area
+> Border area
+> Margin area
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+> On the cross-axis (typically top to bottom, unless the flex-direction has been changed)
+
 5. Explain why git is valuable to a team of developers.
+
+> Git is a valuable collaboration tool, insofar as it allows a team of developers to work off of a "master" or main codebase. In practice, Git allows each developer to save their own local copy of the master codebase, create their own sub-"branch" and make the relevant changes there, and then request for those changes to be "pulled" into the main branch. If successful, then the other developers working on the project can choose to fetch the latest main branch, such that they're always working with an up-to-date version of the codebase.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -102,5 +121,5 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
-* [ ] Add responsive breakpoints to your code by using media queries
+* [ ] Build a contact page and create a form with several inputs of your choosing < DONE
+* [ ] Add responsive breakpoints to your code by using media queries < DONE

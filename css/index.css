@@ -3,49 +3,44 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
+/* Global Styles */
 
 * {
     box-sizing: border-box;
@@ -71,6 +66,31 @@ p {
     margin: 0 auto;
 }
 
+.nav-menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-links {
+    margin-top: 20px;
+}
+
+.nav-item {
+    padding: 0 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.hero-image {
+    margin-bottom: 30px;
+    width: 800px;
+    height: 153px;
+}
+
+/* index.html styles */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +102,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +130,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +203,151 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html styles */
+
+main .about-top-main {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 2% 20px 2%;
+}
+
+main .about-bottom-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-bottom-main .about-item {
+    width: 46%;
+    margin: 20px 2%;
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-item .learn-btn {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    color: black;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.about-item h2 {
+    margin-top: 10px;
+}
+
+.about-above-footer {
+    margin: 20px 2% 20px 2%;
+}
+
+/* contact.html styles */
+
+header .subscribe-box {
+    height: 100px;
+    width: 100%;
+    background: white;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    margin: 10px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    padding: 4px;
+    height: 40px;
+    width: 250px;
+}
+
+.primary-btn {
+    height: 40px;
+    background: black;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin: 2% 0;
+    padding: 10px 5px;
+}
+
+form input[type="text-area"] {
+    padding: 10px 0 100px 10px;
+}
+
+/* Media Queries - Responsivesness */
+
+@media(max-width: 800px) {
+    /* global responsiveness */
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-item {
+        padding: 0 10px;
+        color: black;
+        text-decoration: none;
+    }
+    /* index.html responsiveness */
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .middle-content .boxes .box {
+        width: 95%;
+        height: 100px;
+    }
+    /* about.html responsiveness */
+    main .about-bottom-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about-bottom-main .about-item {
+        width: 95%;
+        margin: 20px 2%;
+        padding: 20px 0;
+        border-bottom: 1px dashed black;
+    }
+    .about-bottom-main .about-item img {
+        width: 100%;
+        height: 25%;
+    }
+    /* contact.html responsiveness */
+    .newsletter {
+        margin: -10px 00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-contact {
+        margin: 0 5%;
+    }
 }
